@@ -124,10 +124,11 @@ public class TechJobs {
             String jobStr = "";
 
             for (String field : row.keySet()) {
+
                 jobStr += field + ": " + row.get(field) + "\n";
 
             }
-            System.out.println(jobStr);
+            System.out.println("*****"+"\n"+jobStr+"*****"+"\n");
         }
 
         }
