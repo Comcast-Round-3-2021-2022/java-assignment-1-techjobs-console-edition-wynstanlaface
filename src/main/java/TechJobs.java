@@ -118,8 +118,8 @@ public class TechJobs {
     }
 
     // Print a list of jobs
-    private static void printJobs(ArrayList<HashMap<String, String>> allJobs) {
-        for (HashMap<String, String> row : allJobs) {
+    private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
+        for (HashMap<String, String> row : someJobs) {
 
             String jobStr = "";
 
@@ -128,7 +128,7 @@ public class TechJobs {
                 jobStr += field + ": " + row.get(field) + "\n";
 
             }
-            System.out.println("*****"+"\n"+jobStr+"*****"+"\n");
+            System.out.println("\n"+"*****"+"\n"+jobStr+"*****");
         }
 
         }
